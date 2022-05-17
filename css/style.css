@@ -1,0 +1,33 @@
+table{
+    background-color: lightyellow;
+    border: 2px solid black;
+    margin: auto;
+
+}
+
+td{
+    border: 1px solid black;
+}
+
+.btnInserir{
+    background-color: #383838;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-left: 45.5%;
+}
+
+form{
+    width:200px;
+    margin-left:45.5%;
+    border: 2px solid black;
+}
+
+label{
+    margin-left: 10px;
+}
+
+input{
+    margin-left: 10px;
+}
+
