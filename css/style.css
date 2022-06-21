@@ -10,11 +10,15 @@ td{
 }
 
 .btnInserir{
-    background-color: #f70303;
+    background-color: blue;
     color: white;
     width: 100px;
     height: 40px;
     margin-left: 45.5%;
+}
+
+.btnInserir:hover{
+    background-color: rgba(0, 0, 255, 0.531);
 }
 
 form{
