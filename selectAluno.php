@@ -1,6 +1,5 @@
 <?php
-    require ('./conexao.php');
-    require ('./fecharConexao.php');
+    require 'conexao.php';
 
     $link = abrirConexao();
 
@@ -17,9 +16,6 @@
         echo 'nome: ' . $nomeAluno . "<br>" . 'nota 1: ' . $nota1 . "<br>" . 'nota 2: ' . $nota2 .
         "<br>" . 'nota 3: ' . $nota3 . "<br>";
         echo "<br>";
-
     }
     
-        fecharConexao($link);
-        echo 'ok';
-?>
+?> 
