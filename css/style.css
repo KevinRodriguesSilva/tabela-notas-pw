@@ -10,7 +10,7 @@ td{
 }
 
 .btnInserir{
-    background-color: #383838;
+    background-color: #f70303;
     color: white;
     width: 100px;
     height: 40px;
@@ -18,8 +18,8 @@ td{
 }
 
 form{
-    width:200px;
-    margin-left:45.5%;
+    width:300px;
+    margin-left:38.4%;
     border: 2px solid black;
 }
 

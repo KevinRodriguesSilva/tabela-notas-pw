@@ -3,7 +3,7 @@
         <title>
             Tabela de notas
         </title>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
         <table>
@@ -13,7 +13,7 @@
                 <td> Nota 1 </td>
                 <td> Nota 2 </td>
                 <td> Nota 3 </td>
-                <td> Média </td>
+                <td> </td>
             </tr>
             <!--tabela 2-->
             <tr>
@@ -60,23 +60,22 @@
             </tr>
         </table>
         <br>
-        <form>
+        <form method="post">
             <label class="form-label">Nome </label>
-            <input type="text" id="nome" name="nome">
+            <input type="text" id="nome" name="nomeAluno">
             <p>
             <label class="form-label">Nota 1 </label>
-            <input type="text" id="nota1">
+            <input type="text" id="nota1" name="nota1">
             <p>
             <label class="form-label">Nota 2 </label>
-            <input type="text" id="nota2">
+            <input type="text" id="nota2" name="nota2">
             <p>        
             <label class="form-label">Nota 3 </label>
-            <input type="text"  id="nota3">
+            <input type="text"  id="nota3" name="nota3">
             <p>
-            <button type="" class="btnInserir"> Inserir Aluno </button>
+            <button class="btnInserir"> Inserir Aluno </button>
         </form>
         <script type="text/javascript" src="js/calcularMedia.js" > </script>
         <script type="text/javascript" src="js/inserirAluno.js" > </script>
-
     </body>
 </html>
